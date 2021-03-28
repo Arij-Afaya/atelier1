@@ -19,8 +19,8 @@ void init(personne* personne)
    personne->imageLeft[2]=IMG_Load("image_left2.png");
    personne->imageLeft[3]=IMG_Load("image_left3.png");
 
-   personne->sv.vie=5;
-   personne->sv.score=0;
+   sv->vie=5;
+   sv->score=0;
    personne->positionp.x=100;
    personne->positionp.y=400;
 }
