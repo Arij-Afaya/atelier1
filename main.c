@@ -1,8 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include "perso.h"
+
+
+
 int main()
 {
-int a,b;
-a=10;
-b=3;
-printf("\n a=%d b=%d ",a,b);
+SDL_Rect positionp;
+SDL_Event event;
+
+init(&personne);
+    return 0;
 }
